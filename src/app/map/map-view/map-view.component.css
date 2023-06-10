@@ -1,0 +1,16 @@
+.wm{
+    width:90%;
+}
+.container {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    
+  }
+  
+  .wm-column {
+    grid-area: wm;
+  }
+  
+  .info-column {
+    grid-area: info;
+  }
